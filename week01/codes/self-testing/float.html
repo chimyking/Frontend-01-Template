@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float</title>
+  <style>
+    .container {
+      height: 200px;
+      background-color: cyan;
+      position: relative;
+    }
+
+    .box {
+      height: 30px;
+      background-color: red;
+      margin: 10px;
+    }
+
+    .box1 {
+      width: 110px;
+    }
+
+    .box2 {
+      width: 120px;
+      background-color: #1700ff;
+    }
+
+    .box3 {
+      width: 130px;
+      background-color: gray;
+      float: left;
+    }
+
+    .box4 {
+      background-color: green;
+      width: 140px;
+      height: 60px;
+    }
+
+
+    .div1 {
+      width: 100px;
+      height: 100px;
+      background: red;
+      float: left;
+    }
+
+    .div2 {
+      width: 200px;
+      height: 200px;
+      background: blue;
+    }
+  </style>
+</head>
+
+<body>
+
+  <article>
+    <header>
+      left
+    </header>
+    <section class="container">
+
+      <div class="box box1"> <span>box1</span> </div>
+      <div class="box box2"> <span>box2</span></div>
+      <div class="box box3"> <span>box3</span></div>
+      <div class="box box4">
+        <div>dd</div><span>box4</span>
+      </div>
+    </section>
+  </article>
+
+  <article>
+    <header>提升层级（浮动提升半层）</header>
+    <section>
+      <div class="div1"><span>div1</span></div>
+      <div class="div2"><span>div2</span>
+      </div>
+    </section>
+  </article>
+</body>
+
+</html>
